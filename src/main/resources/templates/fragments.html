@@ -4,15 +4,18 @@
     <meta charset="UTF-8">
     <title>Coding Events</title>
 
-    <script th:src="@{/script.js}"></script>
-    <link th:href="@{/styles.css}" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
 
 </head>
 <body>
 
 <nav th:fragment="navigation">
-        <a href="/events">See Events</a>
-        <a href="/events/create">Create Event</a>
+    <ul class="nav">
+        <li class="nav"><a href="/events">See Events</a></li>
+        <br>
+        <li class="nav"><a href="/events/create">Create Event</a></li>
+    </ul>
 </nav>
 
 
