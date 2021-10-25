@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org/" xmlns="http://www.w3.org/1999/html">
+<head th:fragment="head">
+    <meta charset="UTF-8">
+    <title>Coding Events</title>
+
+    <script th:src="@{/script.js}"></script>
+    <link th:href="@{/styles.css}" rel="stylesheet">
+
+</head>
+<body>
+
+<nav th:fragment="navigation">
+        <a href="/events">See Events</a>
+        <a href="/events/create">Create Event</a>
+</nav>
+
+
+</body>
+</html>
